@@ -12,3 +12,5 @@ with open("GWA.txt") as file:
         if gwa < gwa_value:
             gwa_value = gwa
             highest_student = name
+# Print the student who got the highest GWA
+print("\033[95mThe student with the highest GWA is " + highest_student + "with a GWA of " + str(gwa_value))
